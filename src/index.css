@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply bg-gray-400 rounded-full p-4 size-16 transform transition-transform md:hover:scale-110;
+  }
+}
